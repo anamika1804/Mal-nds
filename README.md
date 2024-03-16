@@ -1,11 +1,12 @@
-Malicious URL Detection using Lexical Features
-Overview
+## Malicious URL Detection using Lexical Features
+
+#Overview
 This repository contains code and resources for detecting malicious URLs using lexical features. The problem is approached as a multi-class classification task, where URLs are categorized into different classes such as benign (safe), phishing, malware, or defacement URLs.
 
-Problem Statement
+#Problem Statement
 The primary objective of this case study is to develop machine learning models that can accurately classify URLs based on their malicious intent. To achieve this, lexical numeric features are extracted from the raw URLs, as machine learning algorithms require numeric inputs. Three popular boosting machine learning classifiers are employed for this task: XGBoost, Light GBM, and Gradient Boosting Machines.
 
-About the Data
+#About the Data
 The dataset used for training and testing the machine learning algorithms comprises 651,191 URLs, categorized into four classes:
 
 Benign or Safe URLs: 428,103
